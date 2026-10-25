@@ -1,25 +1,104 @@
 aid: minoanexperience-com
+
 name: Minoan
-description: 'Minoan is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by accel) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://storage.googleapis.com/minoan-images/minoan%20website%20redesign/hero_image.webp
+
+description: 'Minoan provides a shoppable hospitality platform that enables property hosts and hospitality professionals to furnish and restock their spaces at insider prices. By aggregating premium brands and offering deep discounts, Minoan streamlines procurement, order tracking, and delivery, allowing users to earn commissions on showroom sales. The service is free to use with no membership fees, targeting Airbnb hosts, property managers, interior designers, and hotels seeking cost-effective furnishing solutions.'
+
 url: https://raw.githubusercontent.com/api-evangelist/minoanexperience-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-25'
+
 modified: '2026-10-25'
+
 tags:
 - Company
-apis: []
+- Hospitality
+- Procurement
+- E-commerce
+- Property Management
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- accel
+
 common:
+- type: Security
+  url: security/minoanexperience-com-vulnerability-disclosure.yml
+- type: LLMsTxt
+  url: llms/minoanexperience-com-llms.txt
+- type: SecurityTxt
+  url: well-known/minoanexperience-com-minoan-security.txt
+- type: WellKnown
+  url: well-known/minoanexperience-com-well-known.yml
+- type: Hosts
+  url: hosts/minoanexperience-com-hosts.yml
+- type: Vendors
+  url: vendors/minoanexperience-com-vendors.yml
+- type: VulnerabilityDisclosure
+  url: security/minoanexperience-com-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/minoanexperience-com-domain-security.yml
 - type: Website
   url: https://www.minoanexperience.com/
+- type: DeveloperPortal
+  url: https://minoan.com/
+- type: Documentation
+  url: https://minoan.com/about-us
+- type: GettingStarted
+  url: https://minoan.com/join-us
+- type: Support
+  url: https://my.minoan.com/auth/login
+- type: Blog
+  url: https://minoan.com/blog
+- type: TermsOfService
+  url: https://minoan.com/terms
+- type: PrivacyPolicy
+  url: https://minoan.com/privacy
+
+- type: DeveloperPortal
+  url: https://minoan.com/
+- type: Documentation
+  url: https://minoan.com/about-us
+- type: GettingStarted
+  url: https://minoan.com/join-us
+- type: Support
+  url: https://my.minoan.com/auth/login
+- type: Blog
+  url: https://minoan.com/blog
+- type: TermsOfService
+  url: https://minoan.com/terms
+- type: PrivacyPolicy
+  url: https://minoan.com/privacy
+
+apis: []
+
+x-backed-by:
+- accel
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: API reference page https://minoan.com/api-docs returns a JavaScript-rendered HTML shell with no machine-readable spec.
+  evidence:
+    - url: https://minoan.com/api-docs
+      status: 404
+  checked: '2026-10-25'
+x-enrichment:
+  date: '2026-10-25'
+  status: enriched
+  artifacts_added: 12
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

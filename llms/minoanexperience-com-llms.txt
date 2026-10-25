@@ -1,0 +1,15 @@
+# Minoan
+
+> Minoan is a hospitality procurement and shoppable-stays platform. STR hosts, property managers,
+> hotels, and interior designers source furniture and home decor at insider/trade pricing and earn
+> revenue share when guests purchase items from their stays.
+
+## Core pages
+- [How Minoan works for STR hosts](https://minoan.com/who-we-work-with/airbnb-hosts)
+- [How Minoan works for hotels](https://minoan.com/who-we-work-with/hotels)
+- [How Minoan works for interior designers](https://minoan.com/who-we-work-with/interior-designers)
+- [How Minoan works for property managers](https://minoan.com/who-we-work-with/property-managers)
+- [About Minoan](https://minoan.com/about-us)
+- [Join Minoan](https://minoan.com/join-us)
+- [Blog](https://minoan.com/blog)
+- [Purchasing Platform](https://minoan.com/how-it-works/purchasing-platform)
